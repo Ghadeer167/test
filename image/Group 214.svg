@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="269" height="83" viewBox="0 0 269 83">
+  <defs>
+    <filter id="Rectangle_10" x="0" y="0" width="269" height="83" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feFlood flood-color="#8a09b9" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_214" data-name="Group 214" transform="translate(-842.5 -430.5)">
+    <g transform="matrix(1, 0, 0, 1, 842.5, 430.5)" filter="url(#Rectangle_10)">
+      <rect id="Rectangle_10-2" data-name="Rectangle 10" width="260" height="74" rx="20" transform="translate(4.5 3.5)" fill="#fff"/>
+    </g>
+    <rect id="Rectangle_11" data-name="Rectangle 11" width="60" height="60" rx="20" transform="translate(854 441)" fill="#2d1b50"/>
+    <path id="angle-small-left-2" d="M11.775,16.67a1.514,1.514,0,0,1,0-2.149l6.947-6.932a1.514,1.514,0,1,0-2.134-2.149L9.641,12.387a4.541,4.541,0,0,0,0,6.418l6.947,6.947A1.514,1.514,0,1,0,18.722,23.6Z" transform="translate(870.259 455.405)" fill="#fff"/>
+    <text id="شاهد_الكل" data-name="شاهد الكل" transform="translate(1071 480)" fill="#2d1b50" font-size="30" font-family="DINNextLTW23-Regular, DIN Next LT W23"><tspan x="-121" y="0">شاهد الكل</tspan></text>
+  </g>
+</svg>
