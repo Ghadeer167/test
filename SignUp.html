@@ -48,7 +48,7 @@
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="">من نحن</a>
+              <a class="nav-link" href="aboutus.html">من نحن</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="Pricing.html">الاسعار</a>
@@ -120,7 +120,7 @@
                    <div class="row">
                      <div class="col-6">
                          <label class="form-label">رقم الهاتف  </label>
-                         <input class="form-control"  type="text" name="  رقم الهاتف"> 
+                         <input class="form-control"  type="number" name="  رقم الهاتف"> 
                      </div>
                      <div class="col-6">
                          <label class="form-label">تاريخ الميلاد</label>
@@ -134,20 +134,20 @@
                    <input class="form-control mb-3"  type="text" name="address"> 
 
                    <label class="form-label"> رقم الوطني</label>
-                   <input class="form-control mb-3"  type="text" name="id"> 
+                   <input class="form-control mb-3"  type="number" name="id"> 
 
               
-                   <label class="form-label" for="email">كلمة المرور</label>
-                     <input class="form-control mb-3" id="email" type="email" name="email" placeholder="" 
+                   <label class="form-label" for="Password">كلمة المرور</label>
+                     <input class="form-control mb-3" id="Password" type="Password" name="Password" placeholder="" 
                      required="required"
                      autofocus="autofocus">
              
 
            
-                     <label class="form-label" for="email">
+                     <label class="form-label" for="Password">
                      تأكيد كلمة المرور
                      </label>
-                     <input class="form-control mb-3" id="email" type="email" name="email" placeholder="" 
+                     <input class="form-control mb-3" id="Password" type="Password" name="Password" placeholder="" 
                      required="required"
                      autofocus="autofocus">
                    
@@ -203,9 +203,6 @@
 
      <!-- jquery -->
      <script src="./js/jquery.min.js"></script>
-
-     <!-- slick js -->
-     <script src="./js/slick.min.js"></script>
  
      <!-- bootstrap js -->
      <script src="./js/bootstrap.min.js"></script>
@@ -213,24 +210,7 @@
      <!-- main js -->
      <script src="./js/main.js"></script>
  
-     <!-- adding slick -->
-     <script type="text/javascript">
-       $(".reviewSlider").slick({
-         slidesToShow: 3,
-         slideToScroll: 1,
-         adaptiveHeight: false,
-         infinite: true,
-         responsive: [
-           {
-             breakpoint: 710,
-             settings: {
-               slidesToShow: 1,
-               slidesToScroll: 1,
-             },
-           },
-         ],
-       });
-     </script>
+   
  
      <!-- change header background after scroll-->
      <script>
